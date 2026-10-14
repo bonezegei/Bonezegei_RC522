@@ -1,7 +1,7 @@
 #include <Bonezegei_RC522.h>
 
-#define SS_PIN  10
-#define RST_PIN 9
+#define SS_PIN  17
+#define RST_PIN 5
 
 Bonezegei_RC522 rfid(SS_PIN, RST_PIN);
 
